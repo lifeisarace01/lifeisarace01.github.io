@@ -1,0 +1,24 @@
+
+
+<a id="a-link"
+    href="https://bixi-intl.alicdn.com/punish/punish:resource:template:ICBUSpace:default_447831.html?qrcode=W6QkuIz7W3e_kHOZFS59qQ|ap-FFA|FgsIKQ_0|f2|1&uuid=5ba424b88cfb5b77bf907399152e7da9&action=wait&origin=https%3A%2F%2Ffilebroker-src.alibaba.com%3A443%2Fkf%2FHdec190f1316f4f6f8179eaa27350a6d4i.png"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+ window._config_ = {
+   "action": "wait",
+   "url": "https://bixi-intl.alicdn.com/punish/punish:resource:template:ICBUSpace:default_447831.html?qrcode=W6QkuIz7W3e_kHOZFS59qQ|ap-FFA|FgsIKQ_0|f2|1&uuid=5ba424b88cfb5b77bf907399152e7da9&action=wait&origin=https%3A%2F%2Ffilebroker-src.alibaba.com%3A443%2Fkf%2FHdec190f1316f4f6f8179eaa27350a6d4i.png"
+};
+</script>
+<!--rgv587_flag:sm-->
