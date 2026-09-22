@@ -1,2 +1,89 @@
 User-agent: *
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
 Allow: /
+
+# Thin taxonomy / paginated surfaces (also omitted from sitemap)
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /*/categories/
+Disallow: /*/tags/
+Disallow: /page/
+Disallow: /*/page/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Generative engines / AI crawlers — /llms.txt is the preferred fact sheet
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Google-Extended
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Bytespider
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: Amazonbot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: CCBot
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /llms.txt
+Allow: /zh-cn/llms.txt
+Allow: /
+
+Sitemap: https://www.trimela.com/sitemap.xml
